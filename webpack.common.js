@@ -19,7 +19,7 @@ const ProgressBarPluginConfig = new ProgressBarPlugin()
 /* Export configuration */
 module.exports = {
     mode: 'development',
-    devtool: 'source-map',
+    // devtool: 'source-map',
     devServer: {
         inline: true,
         compress: true

@@ -4,7 +4,8 @@
   "description": "Quick and dirty Typescipt and webpack starter",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --inline --open --config webpack.dev.js"
+    "start": "webpack-dev-server --inline --open --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "dependencies": {},
   "devDependencies": {
